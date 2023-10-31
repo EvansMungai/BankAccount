@@ -45,6 +45,7 @@ public class Account {
         sac.deposit(500);
         sac.displayBalance();
         System.out.println("");
+        System.out.println("CURRENT ACCOUNT DETAILS");
         CurrentAccount cac = new CurrentAccount(1001, "Peter Smith", "08100000", "admin@gmail.com", 0);
         cac.accountholder();
         cac.deposit(300);
